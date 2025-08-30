@@ -1,0 +1,130 @@
+/*
+   $ TEAM    : https://instagram.com/darkxcode_
+   $ AUTHOR  : https://t.me/zlaxtert 
+   $ CODE    : https://t.me/zexkings 
+   $ DESIGN  : https://t.me/danielsmt 
+   $ SITE    : https://darkxcode.site/
+   $ VERSION : 1.0
+*/
+
+:root {
+    --primary-color: #0078d4;
+    --secondary-color: #505a64;
+    --success-color: #198754;
+    --danger-color: #dc3545;
+    --warning-color: #ffc107;
+    --info-color: #0dcaf0;
+    --light-bg: #f8f9fa;
+    --dark-bg: #212529;
+    --light-text: #f8f9fa;
+    --dark-text: #212529;
+    --card-bg: #ffffff;
+    --card-border: #dee2e6;
+}
+
+body.dark-mode {
+    background-color: var(--dark-bg);
+    color: var(--light-text);
+}
+
+body.dark-mode .card {
+    background-color: #2d3339;
+    border-color: #495057;
+}
+
+body.dark-mode .form-control {
+    background-color: #495057;
+    color: var(--light-text);
+    border-color: #6c757d;
+}
+
+body.dark-mode .form-control:focus {
+    background-color: #495057;
+    color: var(--light-text);
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.25rem rgba(0, 120, 212, 0.25);
+}
+
+body.dark-mode .form-select {
+    background-color: #495057;
+    color: var(--light-text);
+    border-color: #6c757d;
+}
+
+body.dark-mode .table {
+    color: var(--light-text);
+}
+
+body.dark-mode .table-hover tbody tr:hover {
+    color: var(--light-text);
+    background-color: rgba(255, 255, 255, 0.075);
+}
+
+.logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    max-width: 120px;
+    margin-bottom: 15px;
+}
+
+.theme-switch {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.result-card {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.live-item {
+    border-left: 4px solid var(--success-color);
+}
+
+.die-item {
+    border-left: 4px solid var(--danger-color);
+}
+
+.list-item {
+    transition: all 0.3s ease;
+}
+
+.progress-bar {
+    transition: width 0.3s ease;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px 0;
+    font-size: 0.9rem;
+}
+
+.api-info {
+    font-size: 0.85rem;
+    color: var(--secondary-color);
+}
+
+body.dark-mode .api-info {
+    color: #adb5bd;
+}
+
+.badge-live {
+    background-color: var(--success-color);
+}
+
+.badge-die {
+    background-color: var(--danger-color);
+}
+
+.status-icon {
+    width: 20px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 5px;
+}

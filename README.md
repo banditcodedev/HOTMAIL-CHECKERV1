@@ -69,9 +69,9 @@ This is the result if the code is successfully deployed.
 ## Result Response
 
 ### Result Live
-![screenshot](https://raw.githubusercontent.com/banditcodedev/HOTMAIL-CHECKERV1/master/img/ress-live.png)
+![screenshot](https://raw.githubusercontent.com/banditcodedev/HOTMAIL-CHECKERV1/master/img/live-ress.png)
 ### Result die
-![screenshot](https://raw.githubusercontent.com/banditcodedev/HOTMAIL-CHECKERV1/master/img/ress-die.png)
+![screenshot](https://raw.githubusercontent.com/banditcodedev/HOTMAIL-CHECKERV1/master/img/die-ress.png)
 
 This is the result if the code is successfully validation.
 
@@ -80,6 +80,7 @@ This is the result if the code is successfully validation.
 
 > **NOTE**
 > Warning All the information provided here is intended solely for educational and testing purposes. I do not endorse any illegal activities or unfair usage of this program.
+
 
 
 
